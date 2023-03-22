@@ -1,0 +1,113 @@
+
+body{
+    background-color: rgba(247, 243, 231, 0.737);
+    font-family: sans-serif, "Open-sans";
+}
+
+main{
+    margin-top: 50px;
+}
+
+/* Arragning head */
+
+h2, h4{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.25rem;
+}
+
+.head > h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.head > hr{
+    width: 50px;
+    border: 2px solid rgba(250, 166, 114, 0.87);
+}
+
+/* Arranging sections */
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.sections > button{
+    margin: 20px 10px;
+    background: none;
+    color: rgba(250, 166, 114, 0.87);
+    font-size: large;
+    padding: 8px;
+    border: 1.5px solid rgba(250, 166, 114, 0.87);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.sections > button:hover{
+    background-color: rgba(250, 166, 114, 0.87);
+    color: white;
+    cursor: pointer;
+}
+
+/* Treat info */
+
+.treat-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.treats{
+    display: flex;
+    width: 48%;
+    margin: 20px 1%;
+    
+}
+
+/* two childs */
+
+/* 1st */
+.logo{
+    width: 40%;
+    /* max-width: 300px; */
+    max-height: 200px;
+}
+
+.logo > img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    position: relative;
+    border: 4px solid rgba(250, 166, 114, 0.87);
+}
+
+/* 2nd */
+
+.details{
+    width: 55%;
+    margin-left: 5%;
+}
+
+.short-ones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.short-ones > h4{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.price{
+    color: rgba(250, 166, 114, 0.87);;
+}
+
+.info{
+    font-size: large;
+    color: rgba(27, 63, 114, 0.909);
+}
